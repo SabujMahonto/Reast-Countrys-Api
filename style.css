@@ -1,0 +1,16 @@
+.country {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.country_Card {
+  background-color: bisque;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 3px solid rgb(184, 245, 225);
+}
+
+.country_Card img {
+  width: 200px;
+}
